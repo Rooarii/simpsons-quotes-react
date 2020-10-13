@@ -19,9 +19,8 @@ class QuoteCard extends Component {
                     </blockquote>
                     <p>
                         <cite>{this.props.characterFirstName} {this.props.characterLastName}</cite>
-                        <span 
+                        <span className={this.state.favorite? "is-favorite":""}
                             onClick={event=>{
-                                console.log(this.state.favorite);
                                 const newFavorite = !this.state.favorite;
                                 this.setState({ favorite: newFavorite });
                                 console.log(this.state.favorite);
