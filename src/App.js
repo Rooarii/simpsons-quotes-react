@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import QuoteCard from './components/QuoteCard';
-
+import QuoteForm from './components/QuoteForm'
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <QuoteForm />
       <QuoteCard 
         quote="Shoplifting is a victimless crime, like punching someone in the dark." 
         characterFirstName="Nelson" characterLastName="Muntz" 
