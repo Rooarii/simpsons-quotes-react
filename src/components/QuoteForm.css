@@ -52,6 +52,11 @@
 .QuoteForm .remaining-characters {
   color: #555;
 }
+
+.QuoteForm .input-max{
+  border: 1px solid #fc8181;
+}
   
-  
-  
+.QuoteForm .input-ok{
+  border: 1px solid #9ae6b4;
+}
